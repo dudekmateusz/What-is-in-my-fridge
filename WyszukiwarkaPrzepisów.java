@@ -14,7 +14,12 @@ public class WyszukiwarkaPrzepisów {
         System.out.println("Powiedz mi co masz w lodówce, a ja podpowiem, co można z tego zrobić.");
         System.out.println("Podaj produkty: ");
         //tu program będzie musiał zaciągnąć dane od użytkownika i wyświetlić propozycje obiadów
+            private Scanner sc = new Scanner(System.in);
 
+                public void produkty(){
+                     sc.produkty();
+         }
+                     String product = sc.nextLine();
         System.out.println("Na podstawie wpisanych produktów mogę zaproponować Ci kilka przepisów.");
         //tu ma pojawić się lista przepisów, które mają w swoim składzie przynajmniej 3 składniki podstawowe
 
